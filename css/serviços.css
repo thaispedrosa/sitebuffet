@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+/* general */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('../img_links/buffet.jpg');
+    background-position: center;
+    position: relative;
+}
+
+.box-banner-title {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    top: 0;
+    color: rgb(68, 23, 48);
+    padding: 60px;
+    font-weight: bolder;
+    background-color: #c474ac;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.box-banner-title h1 {
+    font-size: 52px;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.box-banner-title p {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 40px;
+    background-color: #c474ac;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    flex: 60%;
+    text-align: center;
+}
+
+.menu a {
+    color: rgb(41, 19, 138);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 10px;
+}
+
+.menu a:hover{
+    background-color: rgb(113, 64, 202);
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Serviços */
+
+.services-container {
+    width: 80%;
+    padding: 50px;
+    margin: 50px;
+    align-items: center;
+}
+
+.service-box {
+    width: 100%;
+    position: relative;
+    clear: both;
+    height: 170px;
+}
+
+.service-title {
+    width: 20%;
+    height: 120px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.service-title p {
+    padding-top: 35px;
+    color: rgb(41, 19, 138);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.service-description {
+    width: 80%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.service-description h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service-description p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#gerenciamento-box {
+    background-color: #eedde9
+}
+
+#dev-box {
+    background-color: #eedde9
+}
+
+#design-box {
+    background-color: #eedde9
+}
+
+#gerenciamento-title {
+    color: rgb(148, 9, 67);
+}
+
+#dev-title {
+    color: rgb(148, 9, 67);
+}
+
+#design-title {
+    color: rgb(148, 9, 67);
+}
+
+.imagens {
+    margin: 0 80px;
+}
+
+#aperitivo {
+    width: 67%;
+    height: 300px;
+    float:left;
+    border: 1px solid rgb(245, 243, 248);
+}
+
+#drink {
+    width: 32.4%;
+    float: right;
+    height: 300px;
+    border: 2px solid rgb(245, 243, 248);
+}
+
+#buffet{
+    width: 32%;
+    float: left;
+    height:300px;
+    border: 2px solid rgb(245, 243, 248);
+}
+
+#baiao{
+    width: 45%;
+    float: right;
+    height: 300px;
+    border: 2px solid rgb(245, 243, 248);
+}
+
+#torta{
+    width: 21.9%;
+    float: right;
+    height: 300px;
+    border: 2px solid rgb(245, 243, 248);
+}
+
+/* Footer */
+
+footer {
+    height: 70px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(236, 234, 245);
+    border-top: 5px solid rgb(250, 126, 240);
+    background-image: linear-gradient(180deg, rgb(131, 79, 145), rgb(151, 76, 147), rgb(238, 178, 233));
+}
+
+.copyright {
+    margin-top: 25px;
+}
